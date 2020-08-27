@@ -1,6 +1,6 @@
 @echo off
 :: Line 5 is used to seprate main progrm with the function
-Rem Function is just defined just like the label
+Rem Function is just defined just like the label or comment
 SETLOCAL
 CALL :Display 5 , 10
 EXIT /B %ERRORLEVEL%
